@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.env
+.cache/
+.idea/
+.vscode/
+coverage/
+*.log
+build/
+tmp/
+
+# Except for main build file
+!dist/app.js
+tests/
+.env.prod
+.env.sand
+.eslintignore
